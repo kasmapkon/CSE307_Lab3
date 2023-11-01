@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .son {
+        width: 400px;
+        border-top: 1px solid black;
+    }
+
+    fieldset {
+        width: 450px;
+        border: 1px solid black;
+    }
+    legend{
+        border :1px solid black;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <fieldset>
+            <h2>MemberRegistration</h2>
+            <center>
+                <fieldset class="son">
+                    <legend ><b>Personal information</b></legend>
+                    <div class="row">
+                        <div class="col-3">
+                            <label class="left">Fullname: </label>
+                            <label class="left">Birthday</label>
+
+
+                            <label class="left">Gender</label>
+
+                            <label class="left">Address</label>
+                            <label class="left">Telephone:</label>
+                            <label class="left">Email:</label>
+                        </div>
+                        <div class="col-9">
+                            <input type="text">
+                            <div class="row">
+                                <div class="col-2">
+                                    <select>
+                                        <option>01</option>
+                                    </select>
+                                </div>
+                                <div class="col-5"><label>Month</label>
+                                    <select>
+                                        <option>01</option>
+                                    </select>
+                                </div>
+                                <div class="col-5"> <label>Year</label>
+                                    <input type="text" style="width:40px">
+                                </div>
+
+
+                            </div>
+
+                            <label for="">Nam</label>
+                            <input type="checkbox">
+                            <label>Nữ</label>
+                            <input type="checkbox">
+
+
+                            <input type="text">
+
+                            <input type="text">
+
+                            <input type="text">
+                        </div>
+
+                    </div>
+
+                </fieldset>
+                <fieldset class="son">
+                    <legend><b>Credentials</b></legend>
+                    <div class="row">
+                        <div class="col-3">
+                            <label class="left">Username:</label>
+                            <label class="left">Password:</label>
+                            <label class="left">Confirm password</label>
+                        </div>
+                        <div class="col-9"> <input type="text">
+
+                            <input type="password">
+
+                            <input type="text">
+                        </div>
+                    </div>
+                </fieldset>
+            </center>
+
+            <center> <input type="submit" value="Login">
+                <input type="submit" value="Cancel">
+            </center>
+
+        </fieldset>
+    </div>
+
+
+</body>
+
+</html>
